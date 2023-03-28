@@ -1,0 +1,145 @@
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items:baseline;
+    width: 1000px;
+}
+.middle {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    width: 1000px;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding-left: 0px;
+}
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    align-self: flex-start;
+}
+ul,a {
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-start;
+    margin: 5px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.hero-image {
+    width: 500px;
+    height: 300px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+button {
+    background-color:#3882f6;
+    padding:15px 32px;
+    border-radius: 15px;
+
+}
+.info {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-bottom: 100px;
+    
+    
+}
+.header-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color:#1f2937;
+
+
+}
+    
+    
+
+
+img {
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+    border-color:#3882f6 ;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 70px;
+    
+}
+ .image-with-text {
+    margin: 25px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 15px;
+    width: 200px;
+    flex-direction: column;   
+}
+
+.quote {
+    display:flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    padding: 50px;
+}
+.call-for-action {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    background-color:#3882f6;
+    color: #f9faf8;
+    margin: 75px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.cfa-button {
+    color: #f9faf8;
+    border-color: #f9faf8;
+    border-style: solid;
+}
+.left-cta{
+    margin: 0px;
+    font-size: 18px;
+}
+.footer {
+    background-color:#1f2937;
+    height: 50px;
+    font-size: 18px;
+    color:#f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
